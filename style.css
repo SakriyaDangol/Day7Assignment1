@@ -5,9 +5,8 @@
 }
 
 .page-wrapper{
-    background: rgb(24,24,24);
     width: auto;
-    height: 105vh;
+    height: 100vh;
 }
 
 .left-box{
@@ -113,8 +112,9 @@ height: 296px;
 .main-box{
     background-color: rgb(24,24,24);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     float: right;
+    overflow: auto;
 }
 
 .top-box{
@@ -275,4 +275,221 @@ height: 296px;
 .category ul li:hover{
     background: rgba(77,77,77,255);
     border: 1px solid rgba(90,90,90,255);
+}
+
+.videos-box{
+    width: 95%;
+    height: 100%;
+    float: right;
+    overflow: auto;
+    padding: 10px;
+}
+
+.videos-content-box{
+    width: 1236px;
+    height: 100%;
+    margin: auto ;
+    overflow: hidden;
+}
+
+.video-box{
+    width: 295px;
+    height: 255px;
+    margin: 10px 0px 38px 14px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.video-1{
+    background-image: url("img/video-box/the-richest/the-richest.png");
+    width: 100%;
+    height: 165.5px;
+    margin-bottom: 10px;
+}
+
+.profile-1{
+    background-image: url("img/video-box/the-richest/profile.png");
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-position: -1px -1px;
+}
+
+.discription{
+    width: 83.5%;
+    float: right;
+    color: rgba(161,161,161,255);
+}
+
+.discription h4{
+    font-size: 91% !important;
+    padding-bottom: 5px;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.discription p{
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.yt-name:hover{
+    color: rgba(236,236,236,255);
+}
+
+a{
+    color: unset;
+}
+
+.video-2{
+    background-image: url("img/video-box/boby-duke/boby-duke.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 165.5px;
+    margin-bottom: 10px;
+}
+
+.video-2:hover{
+    background-image: url("img/video-box/boby-duke/boby-duke.gif");
+}
+
+.profile-2{
+    background-image: url("img/video-box/boby-duke/profile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-position: -1px -1px;
+}
+
+.video-3{
+    background-image: url("img/video-box/warframe/warframe.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 165.5px;
+    margin-bottom: 10px;
+}
+
+.video-3:hover{
+    background-image: url("img/video-box/warframe/warframe.gif");
+}
+
+.profile-3{
+    background-image: url("img/video-box/warframe/profile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-position: -1px -1px;
+}
+
+.video-4{
+    background-image: url("img/video-box/gameclips/gameclips.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 165.5px;
+    margin-bottom: 10px;
+}
+
+.video-4:hover{
+    background-image: url("img/video-box/gameclips/gameclips.gif");
+}
+
+.profile-4{
+    background-image: url("img/video-box/gameclips/profile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-position: -1px -1px;
+}
+
+.video-5{
+    background-image: url("img/video-box/chocotaco/chacotaco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 165.5px;
+    margin-bottom: 10px;
+}
+
+.video-5:hover{
+    background-image: url("img/video-box/chocotaco/chacotaco.gif");
+}
+
+.profile-5{
+    background-image: url("img/video-box/chocotaco/profile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-position: -1px -1px;
+}
+
+.video-6{
+    background-image: url("img/video-box/viva-la-dirt/viva-la-dirt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 165.5px;
+    margin-bottom: 10px;
+}
+
+.video-6:hover{
+    background-image: url("img/video-box/viva-la-dirt/viva-la-dirt.gif");
+}
+
+.profile-6{
+    background-image: url("img/video-box/viva-la-dirt/profile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-position: -1px -1px;
+}
+
+.video-7{
+    background-image: url("img/video-box/mr-momo/mr-momo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 165.5px;
+    margin-bottom: 10px;
+}
+
+.video-7:hover{
+    background-image: url("img/video-box/mr-momo/mr-momo.gif");
+}
+
+.profile-7{
+    background-image: url("img/video-box/mr-momo/profile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-position: -1px -1px;
 }
