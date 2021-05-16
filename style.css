@@ -307,6 +307,10 @@ height: 296px;
     margin-bottom: 10px;
 }
 
+.video-1:hover{
+    background-image: url("img/video-box/the-richest/the-richest.gif");
+}
+
 .profile-1{
     background-image: url("img/video-box/the-richest/profile.png");
     width: 40px;
